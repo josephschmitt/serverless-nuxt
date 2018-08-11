@@ -1,0 +1,19 @@
+{
+  "name": "@joe-sh/serverless-nuxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "invoke": "serverless invoke local --function app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.5.2",
+    "serverless": "^1.30.0",
+    "serverless-http": "^1.6.0",
+    "serverless-plugin-optimize": "^3.1.1-rc.1"
+  }
+}
