@@ -13,6 +13,9 @@ provider:
 functions:
   app:
     handler: app.default
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
 
 plugins:
   - serverless-plugin-optimize
